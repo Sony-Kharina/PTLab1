@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<person name="Харина Софья Михайловна">
+	<subject name="математика">100</subject>
+	<subject name="литература">100</subject>
+	<subject name="программирование">100</subject>
+</person>
+<person name="Петров Петр Петрович">
+	<subject name="математика">87</subject>
+	<subject name="химия">94</subject>
+	<subject name="социология">94</subject>
+</person>
+<person name="Иванов Иван Иванович">
+	<subject name="математика">70</subject>
+	<subject name="химия">48</subject>
+	<subject name="социология">80</subject>
+</person>
+<person name="Васильев Василий Васильевич">
+	<subject name="математика">90</subject>
+	<subject name="химия">68</subject>
+	<subject name="социология">88</subject>
+</person>
+ <person name="Сидоров Сидор Сидорович">
+	<subject name="математика">99</subject>
+	<subject name="химия">78</subject>
+	<subject name="социология">76</subject>
+</person>
+</root>
