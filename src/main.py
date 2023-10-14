@@ -5,6 +5,7 @@ import sys
 from CalcRating import CalcRating
 # from TextDataReader import TextDataReader
 from XMLDataReader import XMLDataReader
+from StudentsGood import StudentsGood
 
 
 def get_path_from_arguments(args) -> str:
@@ -22,6 +23,8 @@ def main():
     print("Students: ", students)
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
+    death_list = StudentsGood(students).calc()
+    print("Students are good:", death_list)
 
 
 if __name__ == "__main__":
