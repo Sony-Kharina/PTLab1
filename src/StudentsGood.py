@@ -13,6 +13,6 @@ class StudentsGood:
             for subject in self.data[key]:
                 if subject[1] >= 76:
                     self.goodCount += 1
-            if self.goodCount == 3:
+            if self.goodCount == len(self.data[key]):
                 self.count += 1
         return self.count
