@@ -21,7 +21,7 @@ def main():
     try:
         reader = XMLDataReader()
         students = reader.read(path)
-    except:
+    except Exception:
         reader = TextDataReader()
         students = reader.read(path)
     print("Students: ", students)
